@@ -131,6 +131,7 @@ def _lookingForElementOnList_(list, lookingForListNum):  # is O(n), a linear fun
             while True:
                 try:
                     i + 1
+                    print("didn't work")
 
                 except ValueError:
                     print('Error was made')
