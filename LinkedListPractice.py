@@ -4,11 +4,13 @@
 # The code immediately below is a verbatim copy, so this disclaimer is being placed here in attempt to avoid
 # copyright issues; the reference mentioned above is where the information came from.
 
+#class used to create an object/node of linked list. 
 class Node(object):
+    #Function for initialization of a node
     def __init__(self, data=None, next_node=None):
         self.data = data
         self.next = next_node
-
+    #Function used to insert a node
     def Insert(head, data):
         if (head == None):
             head = Node(data)
